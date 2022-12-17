@@ -2,9 +2,9 @@
     package="com.example.cryptoo">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="cryptoo"
+        android:label="CoinLux"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -31,5 +31,9 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+       <meta-data
+           android:name="com.google.android.gms.ads.APPLICATION_ID"
+           android:value="ca-app-pub-6325257519832219~3373119905"/>
     </application>
 </manifest>
